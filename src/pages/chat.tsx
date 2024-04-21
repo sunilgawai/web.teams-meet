@@ -10,7 +10,7 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 import { DotsVerticalIcon } from "@radix-ui/react-icons";
 import { Delete, Pin } from "lucide-react";
 
-const Home = () => {
+const Chat = () => {
 	return (
 		<div className="h-screen grid md:grid-cols-[260px_1fr]">
 			<ScrollArea className="flex flex-1 border-r">
@@ -68,4 +68,4 @@ const Home = () => {
 	);
 };
 
-export default Home;
+export default Chat;
